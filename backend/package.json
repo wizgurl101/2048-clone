@@ -1,0 +1,22 @@
+{
+  "name": "2048-backend",
+  "version": "1.0.0",
+  "description": "backend API for 2038 game",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app",
+    "server": "nodemon app",
+    "test": "mocha"
+  },
+  "author": "Nhu Phan",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.7.2",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
